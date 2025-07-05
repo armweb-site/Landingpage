@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.konten-box {
+  height: 100vh;
+  display: flex;
+  flex-flow: row;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap; /* Supaya responsive di layar kecil */
+  background-color: blue;
+}
+
+.box {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+.box h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.box img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 14px;
+  color: #555;
+}
+
+.box a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.box a:hover {
+  text-decoration: underline;
+}
